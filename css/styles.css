@@ -701,3 +701,59 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-btn:focus .close-icon {
     fill: var(--bg-white);
 }
+.modal-form {
+}
+.modal-caption {
+    display: block;
+    width: 360px;
+    margin-top: 72px;
+    margin-bottom: 16px;
+    color: var(--color-blue);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.modal-form-field {
+    position: relative;
+    display: block;
+    margin-bottom: 8px;
+}
+.modal-form-label {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--lightslate, #8E8F99);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.48px;     
+}
+.modal-form-input {
+    width: 360px;
+    height: 40px;
+    padding: 11px 0;
+    padding-left: 38px;
+    font-size: 18px;
+    flex-shrink: 0;
+    outline: transparent;
+    border-radius: 4px;
+    border: 1px solid var(--lightslate, #8E8F99);
+    
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-input:focus {
+    border-color: var(--color-logo);
+}
+.modal-form-icon {
+    fill: var(--color-blue);
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-input:focus + .modal-form-icon {
+    fill: var(--color-logo);
+}
+
