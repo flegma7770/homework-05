@@ -770,3 +770,45 @@ img {
 .modal-form-comment:focus {
     border-color: var(--color-logo);
 }
+.modal-form-agreement {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 8px;
+    margin-top: 8px;
+}
+.modal-form-checkbox {
+ 
+}
+.modal-form-custom-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+    border-color: var(--hov-foc-cl);
+    background-color: var(--hov-foc-cl);
+}
+.modal-form-checkbox:checked + .modal-form-custom-checkbox > .modal-form-checkbox-icon {
+    opacity: 1;
+}
+.modal-form-checkbox-icon {
+    opacity: 0;
+}
+.modal-form-agreement-desc {
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+}
+.modal-form-link {
+    color: var(--color-logo);
+    text-decoration: underline;
+}
