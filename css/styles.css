@@ -545,7 +545,7 @@ img {
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid var(--bg-white);
-  background-color: var(--color-blue);
+  background-color: transparent;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   outline: transparent;
 }
@@ -556,14 +556,16 @@ img {
   letter-spacing: 0.48px;
 }
 .subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
   color: var(--bg-white);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   background: var(--color-logo);
   letter-spacing: 0.04em;
-  display: block;
-  margin: 0 auto;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
