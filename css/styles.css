@@ -847,6 +847,16 @@ img {
 }
 .modal-form-checkbox {
 }
+.modal-form-agreement-label {
+  display: flex;
+  align-items: center;
+  color: #8e8f99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+  user-select: none;
+
+}
 .modal-form-custom-checkbox {
   display: flex;
   align-items: center;
@@ -855,6 +865,7 @@ img {
   height: 16px;
   border-radius: 2px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  margin-right: 8px;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
