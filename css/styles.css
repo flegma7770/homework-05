@@ -881,11 +881,11 @@ img {
 .modal-form-checkbox:checked
   + .modal-form-agreement-label
   + .modal-form-custom-checkbox
-  > .modal-form-checkbox-icon {
+   .modal-form-checkbox-icon {
   opacity: 1;
 }
 .modal-form-checkbox-icon {
-  opacity: 0;
+  /* opacity: 0; */
 }
 /* .modal-form-agreement-desc {
   color: #8e8f99;
@@ -897,6 +897,7 @@ img {
 .modal-form-link {
   color: var(--color-logo);
   text-decoration: underline;
+  margin-left: 4px;
 }
 .modal-send-btn {
   color: var(--bg-white);
