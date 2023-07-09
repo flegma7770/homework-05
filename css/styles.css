@@ -879,6 +879,7 @@ img {
   fill: var(--color-white);
 }
 .modal-form-checkbox:checked
+  + .modal-form-agreement-label
   + .modal-form-custom-checkbox
   > .modal-form-checkbox-icon {
   opacity: 1;
@@ -886,13 +887,13 @@ img {
 .modal-form-checkbox-icon {
   opacity: 0;
 }
-.modal-form-agreement-desc {
+/* .modal-form-agreement-desc {
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.48px;
   user-select: none;
-}
+} */
 .modal-form-link {
   color: var(--color-logo);
   text-decoration: underline;
