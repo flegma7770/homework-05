@@ -576,6 +576,10 @@ img {
   height: 40px;
   padding: 8px 24px;
 }
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--hov-foc-cl);
+}
 .footer-subsribe-icon {
   margin-left: 16px;
 }
@@ -816,6 +820,7 @@ img {
   fill: var(--color-logo);
 }
 .modal-form-comment {
+  display: block;
   width: 360px;
   height: 120px;
   padding: 8px 16px;
@@ -848,8 +853,6 @@ img {
 .modal-form-checkbox {
 }
 .modal-form-agreement-label {
-  /* display: flex;
-  align-items: center; */
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
@@ -878,28 +881,12 @@ img {
   border: none;
   background-color: var(--hov-foc-cl);
   fill: var(--color-white);
+  
 }
-/* .modal-form-checkbox:checked
-  + .modal-form-agreement-label
-  + .modal-form-custom-checkbox
-   .modal-form-checkbox-icon {
-    opacity: 1;
-}
-.modal-form-checkbox-icon {
-  /* opacity: 0; */
-/* } */
 
-/* .modal-form-agreement-desc {
-  color: #8e8f99;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.48px;
-  user-select: none;
-} */
 .modal-form-link {
   color: var(--color-logo);
   text-decoration: underline;
-  /* margin-left: 4px; */
 }
 .modal-send-btn {
   color: var(--bg-white);
@@ -919,4 +906,9 @@ img {
   cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-send-btn:hover,
+.modal-send-btn:focus {
+ background-color: var(--hov-foc-cl);
 }
